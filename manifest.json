@@ -1,21 +1,22 @@
 {
-    "name": "Hello PWA",
-    "short_name": "PWA Hello",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#3367d6",
-    "icons": [
-      {
-        "src": "./192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "./512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "Hello PWA",
+  "short_name": "PWA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3367d6",
+  "icons": [
+    {
+      "src": "./192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "id": "Hello-PWA-id",
+  "description": "This is a test of PWA. A \"hello world\" of sorts..."
+}
