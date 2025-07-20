@@ -1,14 +1,13 @@
-const CACHE_NAME = 'pwa-cache-v3'; // Increment this on updates
+const CACHE_NAME = 'pwa-cache-v4'; // Increment this on updates
 
 self.addEventListener('install', (e) => {
     console.log('🔧 Installing Service Worker...');
     e.waitUntil(
       caches.open(CACHE_NAME).then((cache) => {
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/style.css',
-          '/manifest.json'
+          'index.html',
+          'style.css',
+          'manifest.json'
         ]);
       })
     );
